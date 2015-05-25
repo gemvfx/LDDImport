@@ -1,4 +1,0 @@
-STRINGTABLE LDDImporter {
-	LDDImporter "LDD Importer";
-	LDDIMPORTER_DEBUG_LEVEL "Debug Level"
-}

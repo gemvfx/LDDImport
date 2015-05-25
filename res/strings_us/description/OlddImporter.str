@@ -1,0 +1,4 @@
+STRINGTABLE Olddimporter {
+	LDDIMPORTER "LDD Importer";
+	LDDIMPORTER_DEBUG_LEVEL "Debug Level";
+}

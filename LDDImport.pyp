@@ -16,7 +16,8 @@ import os, sys
 #1033677    LDDImport --  registered 25.09.2014
 PLUGIN_ID = 1033677
 
-class LDDImporter(c4d.plugins.ObjectData):
+class Olddimporter(c4d.plugins.ObjectData):
+    print "hihi"
     pass
   
         
@@ -25,7 +26,7 @@ def main():
     dir, f = os.path.split(__file__)
     fn = os.path.join(dir, "res", "LDDimport.png")
     bmp.InitWith(fn)
-    c4d.plugins.RegisterObjectPlugin(id=PLUGIN_ID, str="LDD Importer", g=LDDImporter, 
+    c4d.plugins.RegisterObjectPlugin(id=PLUGIN_ID, str="LDD Importer", g=Olddimporter, 
                                         description="LDDImporter", info=c4d.OBJECT_GENERATOR, icon=None)
     
         

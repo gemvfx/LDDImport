@@ -1,4 +1,0 @@
-enum {
-	LDDImporter = 1033677 ;
-	LDDIMPORTER_DEBUG_LEVEL = 1000
-}

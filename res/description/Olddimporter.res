@@ -1,5 +1,5 @@
-CONTAINER LDDImporter {
-	NAME LDDImporter;
+CONTAINER Olddimporter {
+	NAME Olddimporter;
 	INCLUDE Obase;
 
 	GROUP ID_OBJECTPROPERTIES {
